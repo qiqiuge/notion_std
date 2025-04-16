@@ -66,6 +66,7 @@ const LayoutBase = props => {
   const tocRef = isBrowser ? document.getElementById('article-wrapper') : null
 
   // 悬浮按钮内容
+  /*
   const floatSlot = (
     <>
       {post?.toc?.length > 1 && (
@@ -81,6 +82,7 @@ const LayoutBase = props => {
       {showRandomButton && <ButtonRandomPostMini {...props} />}
     </>
   )
+  */
 
   // Algolia搜索框
   const searchModal = useRef(null)
